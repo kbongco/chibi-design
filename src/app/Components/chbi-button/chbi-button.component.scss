@@ -1,0 +1,35 @@
+.chbi-button-container {
+  padding-top: 16px;
+  padding-left: 8px;
+
+  .chbi-button {
+    height: 3.125rem;
+    width: 8.25rem;
+    background-color: #B3FEE3;
+    border-radius: 15%;
+  }
+
+  .chbi-button-dark {
+    background-color: #797596;
+    height: 3.125rem;
+    width: 8.25rem;
+    border-radius: 15%;
+    color: white;
+  }
+
+  .chbi-button-secondary {
+    height: 3.125rem;
+    width: 8.25rem;
+    border-radius: 15%;
+    background-color: #2751CE;
+    color: white;
+  }
+
+  .chbi-button-primary {
+    height: 3.125rem;
+    width: 8.25rem;
+    border-radius: 15%;
+    background-color: #052F5F;
+    color: white;
+  }
+}

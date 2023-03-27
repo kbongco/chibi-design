@@ -1,0 +1,9 @@
+<div class="chbi-button-container">
+  <button (click)="onClick()" role="button" [ngClass]="{'chbi-button': isDefault, 
+  'chbi-button-primary': isPrimary,
+  'chbi-button-secondary' : isSecondary,
+  'chbi-button-dark' : isDark}"
+  >
+    {{value}}
+  </button>
+</div>
