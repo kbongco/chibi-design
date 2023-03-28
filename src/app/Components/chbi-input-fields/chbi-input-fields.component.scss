@@ -1,0 +1,31 @@
+.input-container-contents {
+  padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+
+    .chbi-input-label {
+      padding-top: 16px;
+      font-size: 1.15rem;
+      margin-bottom: 8px;
+    }
+
+    .chbi-input {
+      height: 2.25rem;
+      width: 20rem;
+      border-radius: 2%;
+      border: 1px solid;
+    }
+
+    .chbi-required-star {
+      color: red;
+    }
+
+    .chbi-required-star-hidden {
+      display: none;
+    }
+
+    input::placeholder {
+      font-size:1.15rem;
+    }
+
+}
