@@ -1,0 +1,11 @@
+<div class="input-container">
+  <div class="input-container-contents">
+    <label class="chbi-input-label">{{labelText}}
+      <label [ngClass]="isRequired ? 'chbi-required-star' : '.chbi-required-star-hidden'">*</label></label> 
+    <input class='chbi-input' type='text' 
+    placeholder={{placeholder}}
+    [attr.required]="isRequired || null"
+    [attr.disabled]="isDisabled || null"
+    [attr.readonly]="isReadOnly || null"/>
+  </div>
+</div>
