@@ -4,6 +4,8 @@
       <label [ngClass]="isRequired ? 'chbi-required-star' : '.chbi-required-star-hidden'">*</label></label> 
     <input class='chbi-input' type='text' 
     placeholder={{placeholder}}
-    [attr.required]="isRequired || null"/>
+    [attr.required]="isRequired || null"
+    [attr.disabled]="isDisabled || null"
+    [attr.readonly]="isReadOnly || null"/>
   </div>
 </div>

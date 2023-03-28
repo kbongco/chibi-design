@@ -28,4 +28,8 @@
       font-size:1.15rem;
     }
 
+    input:required:invalid {
+      border: 2px solid red;
+    }
+
 }
