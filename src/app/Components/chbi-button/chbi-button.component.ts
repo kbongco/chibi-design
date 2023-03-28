@@ -33,6 +33,7 @@ export class ChbiButtonComponent {
     
   onClick() {
     this.bttnClick.emit();
+    console.log('this works');
   }
 
 
