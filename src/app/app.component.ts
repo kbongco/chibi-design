@@ -18,5 +18,6 @@ export class AppComponent {
   placeHolder = 'I am placeholder';
   public isRequired?: boolean;
   placeHolderDisabled = "Disabled"
+  testArray = ['apples', 'bananas', 'oranges', 'grape', 'grapefruit']
 
 }

@@ -1,1 +1,10 @@
-<p>chbi-dropdown works!</p>
+<div class="chbi-dropdown-options">
+  <button class="chbi-dropdown-button" aria-haspopup="listbox" aria-labelledby="dropdown-label"
+    (click)="toggleDropdown()" (clickOutside)="isOpen = false">
+  </button>
+  <ul class="chbi-dropdown-list" role="listbox" aria-expanded="false" [ngClass]="{'dropdown-open' : isOpen}">
+    <li *ngFor="let o of options" [ngClass]="{'selected' : current === o}" tabIndex=0 (click)="selectVal(o)"
+      role="option" [innerHTML]="o.name">
+    </li>
+  </ul>
+</div>
