@@ -13,5 +13,10 @@ export class AppComponent {
   public isSecondary: boolean = true;
   public isPrimary: boolean = true;
   disabled = true;
+  labelText = 'I am a label'
+  labelTextRequired = 'with the required symbol'
+  placeHolder = 'I am placeholder';
+  public isRequired?: boolean;
+  placeHolderDisabled = "Disabled"
 
 }

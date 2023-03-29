@@ -1,7 +1,30 @@
-<app-chbi-button value={{value}} [isDefault]="true"></app-chbi-button>
+<section>
+<h1>Buttons</h1>
+<div class='chibi-buttons'>
+  <app-chbi-button value={{value}} [isDefault]="true"></app-chbi-button>
 
 <app-chbi-button value={{value}} [isDark]="true"></app-chbi-button>
 
 <app-chbi-button value={{value}} [isSecondary]="true"></app-chbi-button>
 
 <app-chbi-button value={{value}} [isPrimary]="true"></app-chbi-button>
+
+<app-chbi-button value={{value}} [isPrimary]="true" [disabled]="true"></app-chbi-button>
+</div>
+</section>
+
+<section>
+  <h1>Input</h1>
+
+  <app-chbi-input-fields labelText={{labelText}}></app-chbi-input-fields>
+
+  <app-chbi-input-fields labelText={{labelTextRequired}} [isRequired]="true"></app-chbi-input-fields>
+
+  <app-chbi-input-fields labelText={{labelText}} placeholder={{placeHolder}}></app-chbi-input-fields>
+
+  <app-chbi-input-fields labelText={{labelText}} [isDisabled]="true" placeholder={{placeHolderDisabled}}></app-chbi-input-fields>
+</section>
+
+<section>
+  <h1>Dropdown Input</h1>
+</section>
